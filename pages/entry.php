@@ -1,4 +1,15 @@
-<!DOCTYPE html>
+<?php
+ require_once("../database.php");
+ require_once("../classes.php");
+
+
+
+ echo"<pre>";
+ var_dump($hotels);
+ echo"</pre>";
+ exit(0);
+
+ ?><!DOCTYPE html>
 <html lang="ja">
 
 <head>
